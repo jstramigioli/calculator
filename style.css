@@ -1,0 +1,127 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+
+.calculator {
+    box-sizing: border-box;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgb(145, 133, 133);
+}
+
+.display {
+    box-sizing: border-box;
+    width: 600px;
+    height: 100px;
+    text-align: right;
+    background-color: rgb(231, 221, 221);
+    font-size: 90px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+}
+
+.numContainer {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#rightBtnContainer {
+    width: 250px;
+}
+
+.number {
+    width: 90px;
+    height: 90px;
+    margin: 3px;
+    font-size: 60px;
+    background-color:rgb(41, 41, 41);
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+#back {
+    width: 90px;
+    height: 90px;
+    margin: 3px;
+    font-size: 60px;
+    background-color:rgb(41, 41, 41);
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+.operatorContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    align-items: flex-start;
+}
+
+.operator {
+    width: 90px;
+    height: 90px;
+    margin: 3px;
+    font-size: 60px;
+    background-color:rgb(230, 215, 215);
+    color: rgb(42, 42, 43);
+    border-radius: 8px;
+}
+
+.otherButtonContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.otherBtn {
+    width: 180px;
+    height: 90px;
+    margin: 3px;
+    font-size: 60px;
+    background-color:rgb(230, 215, 215);
+    color: rgb(42, 42, 43);
+    border-radius: 8px;
+}
+
+#clear {
+    font-size: 50px;
+    background-color: rgb(214, 173, 193);
+}
+
+#clear:hover {
+    background-color: rgb(255, 219, 14);
+    color: black;
+}
+
+#equals  {
+    background-color: rgb(174, 238, 174);
+} 
+
+#equals:hover {
+    background-color: rgb(255, 219, 14);
+    color: black;
+}
+
+.button:hover {
+    background-color: rgb(255, 219, 14);
+    color: black;
+}
+
+#back:hover {
+    background-color: rgb(255, 219, 14);
+    color: black;
+}

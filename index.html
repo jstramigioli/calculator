@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display"></div>
+        <div class="buttonContainer">
+            <div class="numContainer">
+                <button class="button number" id="1" data-key="1">1</button>
+                <button class="button number" id="2" data-key="2">2</button>
+                <button class="button number" id="3" data-key="3">3</button>
+                <button class="button number" id="4" data-key="4">4</button>
+                <button class="button number" id="5" data-key="5">5</button>
+                <button class="button number" id="6" data-key="6">6</button>
+                <button class="button number" id="7" data-key="7">7</button>
+                <button class="button number" id="8" data-key="8">8</button>
+                <button class="button number" id="9" data-key="9">9</button>
+                <button class="button number" id="." data-key=".">.</button>
+                <button class="button number" id="0" data-key="0">0</button>
+                <button class="button" id="back" data-key="Backspace">B</button>
+            </div>
+            <div id="rightBtnContainer">
+                <div class="operatorContainer">
+                    <button class="button operator" id="+" data-key="+">+</button>
+                    <button class="button operator" id="-" data-key="-">-</button>
+                    <button class="button operator" id="*" data-key="*">X</button>
+                    <button class="button operator" id="/" data-key="/">/</button>
+                </div>
+                <div class="otherButtonContainer">
+                    <button class="button otherBtn" id="clear" data-key=" ">CLEAR</button>
+                    <button class="button otherBtn" id="equals" data-key="Enter">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
